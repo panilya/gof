@@ -35,7 +35,9 @@ public class Board {
     }
 
     public void renderBoard() {
+        System.out.println("_".repeat(x+2));
         for (int i = 0; i < board.length; i++) {
+            System.out.print("|");
             for (int j = 0; j < board[i].length; j++) {
                 if (board[i][j] == 1) {
                     System.out.print("X");
@@ -43,7 +45,9 @@ public class Board {
                     System.out.print(".");
                 }
             }
-            System.out.println();
+            System.out.println("|");
         }
+        System.out.println("-".repeat(x+2));
+
     }
 }
