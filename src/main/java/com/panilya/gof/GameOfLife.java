@@ -7,18 +7,11 @@ public class GameOfLife {
         board.setAlive(3,2);
         board.setAlive(4,2);
 
-
         // board.initBoard();
 
         for (int i = 0; i < 5; i++) {
             board.renderBoard();
             board.step();
         }
-//
-//        board.renderBoard();
-//        board.step();
-//        board.renderBoard();
-//        board.step();
-//        board.renderBoard();
     }
 }
