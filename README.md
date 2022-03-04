@@ -1,7 +1,8 @@
-#Conway's Game of Life
-###In active development
+# Conway's Game of Life
+### In active development
 
-##Features
+## Features
+
 TUI - Terminal UI 
 
 Graphic UI - TO BE DONE
