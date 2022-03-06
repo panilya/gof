@@ -5,4 +5,4 @@
 
 TUI - Terminal UI 
 
-Graphic UI - TO BE DONE
+Graphic UI - Primitive realization of Graphical Game of Life
