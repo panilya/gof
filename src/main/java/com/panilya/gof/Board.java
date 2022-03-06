@@ -110,4 +110,12 @@ public class Board {
         }
         System.out.println("-".repeat(x));
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
 }

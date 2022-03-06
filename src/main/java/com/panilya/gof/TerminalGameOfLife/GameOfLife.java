@@ -1,4 +1,6 @@
-package com.panilya.gof;
+package com.panilya.gof.TerminalGameOfLife;
+
+import com.panilya.gof.Board;
 
 public class GameOfLife {
     public static void main(String[] args) {
